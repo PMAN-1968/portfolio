@@ -1,0 +1,207 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+
+}
+header > nav > ul >li {
+	list-style: none;
+	display: inline;
+	padding: 20px;
+	justify-content: space-evenly;
+
+}
+
+header > nav > ul >li a {
+	text-decoration: none;
+/*	padding: 20x;*/
+	color:black;
+	font-size: 15px;
+}
+
+header > section.hero ,.hero2{
+	display: flex;
+	background: floralwhite;
+	align-items: center;
+	padding: 100px;
+	justify-content: space-evenly;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+ p{
+	padding: 20px 0px;
+}
+
+
+/*button code here*/
+button.contact-us{
+	background-color: orange;
+	color: white;
+	border: none;
+	padding: 15px;
+	width: 150px;
+	height: 50px;
+	cursor:pointer;
+}
+
+button.about-us{
+	background-color: teal;
+	color: white;
+	border: none;
+	padding: 15px;
+	width: 150px;
+	height: 50px;
+	cursor:pointer;
+}
+
+/*second section styling starts here*/
+
+#row1, #row2 {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin: 30px 0px 0px -5px;
+}
+.catalogue{
+	background-color: beige;
+	width: 31%;
+	padding:40px;
+	height: 300px;
+}
+
+.second-section{
+	padding:100px;
+}
+
+span.buy a{
+	margin-left: 100px;
+	text-decoration: none;
+	color: teal;
+	font-size: 12px;
+}
+
+.dollar{
+	color:teal;
+	text-decoration: none;
+}
+
+figcaption{
+	padding-bottom: 7px;
+	margin-right: 50px;
+}
+.hero2{
+	flex-direction: row-reverse;
+}
+
+
+/*footer css styling starts here*/
+
+#ayomide {
+	background-color: black;
+	color: white;
+	height: 400px;
+	width: 1100px;
+	margin: auto;
+	border: 0.5px solid black;
+}
+
+.house {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.house2 {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#house3 {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 20px;
+}
+
+.link {
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 45px;
+}
+
+.link > ul >li a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.link > ul >li {
+	list-style: none;
+	padding:0px 8px 5px 10px;
+}
+
+.row3, .row4 {
+	display: flex;
+	justify-content: space-evenly;
+	padding-right: 50px;
+	margin: auto;
+
+}
+
+.catalogue2 {
+	background-color: beige;
+	margin: 4px;
+	width: 40px;
+	height: 40px;
+	padding: 7px;
+}
+
+input {
+	width: 230px;
+	height: 35px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 1px solid white;
+	font-size: 10px;
+}
+
+button {
+	width: 110px;
+	height: 32px;
+	background-color: teal;
+	color: white;
+	border: 1px solid teal;
+	margin-bottom: 15px;
+	font-size: 10px;
+}
+
+.last-t {
+	text-align: center;
+	margin-top: 1px;
+}
+
+
+/*media query for responsiveness*/
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+	
+}
